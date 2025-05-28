@@ -42,7 +42,10 @@ export default defineConfig({
       allure: true,
       allureReuseAfterSpec: true,
       version: "DEV",
-      amb: "LOCAL"
+      amb: "LOCAL",
+            cucumber: {
+        tags: ""
+      }
     },
 
     /**
